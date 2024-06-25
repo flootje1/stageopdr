@@ -11,9 +11,9 @@
 	let errorSpotify = writable(null);
 	let activeSection = writable('weather'); 
   
-	const weatherApiKey = '3aee100764c2429ea2f74505241106'; 
-	const spotifyClientId = 'a9d2584cb1c848eda34693fb002dbdd7';
-	const spotifyClientSecret = '15990444bee343dc9646ddd0b13c1fbe'; 
+	const weatherApiKey = 'YOUR-KEY-HERE'; 
+	const spotifyClientId = 'YOUR-KEY-HERE';
+	const spotifyClientSecret = 'YOUR-KEY-HERE'; 
   
 	const fetchWeather = async () => {
 	  loadingWeather.set(true);
